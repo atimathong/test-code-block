@@ -28,9 +28,9 @@ def credit_log_modelling(cr_data):
     plt.scatter(cr_data['person_age'], cr_data['loan_int_rate'],
                 c=cr_data['loan_status'],
                 cmap=mpl.colors.ListedColormap(colors), alpha=0.5)
-    plt.xlabel("Person Age")
+    plt.xlabel("Person age")
     plt.ylabel("Loan Interest Rate")
-    plt.title("Interest Rate vs Age")
+    plt.title("Interest Rate vs age")
 
     cr_clean1 = cr_data[cr_data['person_age'] <= 100]
     cr_data[cr_data['person_age'] > 100]
@@ -85,53 +85,5 @@ def credit_log_modelling(cr_data):
                                :, 1], columns=['prob_default'])
     pred_df = pd.concat([y_test.reset_index(drop=True), predict_log], axis=1)
     print("percentage")
+    print("return", 100)
     return pred_df
-
-
-# 🔵 Standard Compliance Report
-# 🔹 Type: Credit-Scoring
-# 🔹 Code Block Name: credit_log_1.py
-# 🔹 Analysis Result =>
-#   1. Refer to ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices
-#   ⦿ Section: Credit Scoring Development
-#    ⁃ Count of standard compliance in the code block:
-#      ◦ data: 1
-#      ◦ cr_data: 15
-#      ◦ person_age: 3
-#      ◦ Age: 2
-#      ◦ DataFrame: 2
-#      ◦ DataFrame: 2
-#      ◦ pred_df: 2
-#      Total: 27
-#    ⁃ Count of standard violation in the code block: 0
-#   ⦿ Section: Preparation of Credit Information no.8.1
-#    ⁃ Count of standard compliance in the code block:
-#      ◦ person_age: 3
-#      ◦ Age: 2
-#      Total: 5
-#    ⁃ Count of standard violation in the code block: 0
-#   2. Refer to Credit Information Business Act, B.E.2545
-#   ⦿ Section: 3
-#    ⁃ Count of standard compliance in the code block:
-#      ◦ loan_int_rate: 4
-#      ◦ person_age: 3
-#      ◦ loan_status: 4
-#      ◦ Age: 2
-#      ◦ Loan: 1
-#      ◦ loan_grade: 1
-#      ◦ loan_intent: 1
-#      Total: 16
-#    ⁃ Count of standard violation in the code block: 0
-# 🔹 Absent standard in the code block:
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Definition of Credit Scoring
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Preparation of Credit Information no.8.2
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Preparation of Credit Information no.8.3
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Preparation of Credit Information no.8.5
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Preparation of Credit Information no.8.6
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Construction of Credit Scoring
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Testing of the Reliability of Separation and/or Accuracy of Prediction Power of Credit Scoring
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Implementation of Credit Scoring System I
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Implementation of Credit Scoring System II
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Overrides in Credit Approval
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Verification of the Applicant’s Information
-# 🔹 Reference Number: 0d9c11e7914c72df9ecf966ae423feb98300486c1bb235190d555226c9e96f5f

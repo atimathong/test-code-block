@@ -229,3 +229,4 @@ def customer_segmentation(data):
         plt.text(i, count, str(count), ha='center', va='bottom')
 
     plt.show()
+
