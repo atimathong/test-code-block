@@ -515,3 +515,50 @@ if __name__ == '__main__':
         process_extract_entities(ocr_path)
     else:
         print('argument is missing: ocr output file path')
+
+# 🔵 Standard Compliance Report
+# 🔹 Product Type: Know-Your-Customer Process
+# 🔹 Code Block Name: kyc1.py
+# 🔹 Analysis Result: 
+#   Standard => Notification of the Bank of Thailand No. FPG. 19/2562 Re: Regulations on Know Your Customer (KYC) for deposit-account opening at financial institutions
+#   ⦿ Section: Principle
+#    ⁃ Count of standard compliance in the code block: 
+#      ◦ field_name: 31
+#      ◦ fullname: 3
+#      ◦ ocr_name: 2
+#      ◦ output_name: 2
+#      ◦ __name__: 1
+#      Total: 39
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Regulations on Know-Your-Customer
+#    ⁃ Count of standard compliance in the code block: 
+#      ◦ ValueError: 1
+#      ◦ process_extract_entities: 2
+#      Total: 3
+#    ⁃ Count of standard violation in the code block: 0
+# 🔹 Absent section in the code block: 0
+# 🔹 Create Date: Mon, 04 Sep 2023 20:06:10 GMT
+# 🔹 Reference Number: 3d9354a4a8ff019a1ae6c41865479ae3c67accda581abe2a8346f0239204dea6
+# 🔵 Standard Compliance Report
+# 🔹 Product Type: Know-Your-Customer Process
+# 🔹 Code Block Name: kyc1.py
+# 🔹 Analysis Result: 
+#   Standard => Notification of the Bank of Thailand No. FPG. 19/2562 Re: Regulations on Know Your Customer (KYC) for deposit-account opening at financial institutions
+#   ⦿ Section: Principle
+#    ⁃ Count of standard compliance in the code block: 
+#      ◦ field_name: 31
+#      ◦ fullname: 3
+#      ◦ ocr_name: 2
+#      ◦ output_name: 2
+#      ◦ __name__: 1
+#      Total: 39
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Regulations on Know-Your-Customer
+#    ⁃ Count of standard compliance in the code block: 
+#      ◦ ValueError: 1
+#      ◦ process_extract_entities: 2
+#      Total: 3
+#    ⁃ Count of standard violation in the code block: 0
+# 🔹 Absent section in the code block: 0
+# 🔹 Create Date: Mon, 04 Sep 2023 20:36:25 GMT
+# 🔹 Reference Number: 125c21c7a3a243c7dbd85301845054b4fc48a2060e9e8c798137392187789e0c
