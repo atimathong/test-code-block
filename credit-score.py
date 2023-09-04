@@ -8,14 +8,14 @@ def perform_creditscoring(sender_account, age, loan, delinquency_record):
     print("return")
     print("loan", loan)
     print("age", age)
+    age = 13
     return ""
 
-
 # 🔵 Standard Compliance Report
-# 🔹 Product Type: Credit-Scoring
+# 🔹 Product Type: Credit Scoring
 # 🔹 Code Block Name: credit-score.py
 # 🔹 Analysis Result:
-#   1. Standard => Credit Information Business Act, B.E.2545
+#   1. Standard => Credit Information Business Act B.E.2545
 #   ⦿ Section: 3
 #    ⁃ Count of standard compliance in the code block:
 #      ◦ perform_creditscoring: 1
@@ -31,10 +31,10 @@ def perform_creditscoring(sender_account, age, loan, delinquency_record):
 #    ⁃ Count of standard violation in the code block:
 #      ◦ delinquency_record: 1
 #      Total: 1
-# 🔹 Absent standard in the code block: 0
-# 🔹 Reference Number: 77150d5731dd4b92e09277525511265a936deac9a9c6403b600b44cec76bfaa1
+# 🔹 Absent section in the code block: 0
+# 🔹 Reference Number: 440d7e6f83615f337aa5df2bd9c946741fc62212863cdafe5edf966d10c1901b
 # 🔵 Standard Compliance Report
-# 🔹 Product Type: Credit-Scoring
+# 🔹 Product Type: Credit Scoring
 # 🔹 Code Block Name: credit-score.py
 # 🔹 Analysis Result:
 #   1. Standard => ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices
@@ -48,40 +48,12 @@ def perform_creditscoring(sender_account, age, loan, delinquency_record):
 #      ◦ perform_creditscoring: 1
 #      Total: 1
 #    ⁃ Count of standard violation in the code block: 0
-# 🔹 Absent section in the code block:
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Implementation of Credit Scoring System I
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Credit Scoring Development
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Preparation of Credit Information no.8.6
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Implementation of Credit Scoring System II
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Verification of the Applicant’s Information
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Preparation of Credit Information no.8.3
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Overrides in Credit Approval
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Construction of Credit Scoring
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Preparation of Credit Information no.8.1
-#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Testing of the Reliability of Separation and/or Accuracy of Prediction Power of Credit Scoring
-# 🔹 Reference Number: 91167d771f432b632988ad2a80a4b4599ab0c2415a24aa921cffc8129b30879e
-
-# 🔵 Standard Compliance Report
-# 🔹 Product Type: Credit Scoring
-# 🔹 Code Block Name: credit-score.py
-# 🔹 Analysis Result: 
-#   1. Standard => ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices
-#   ⦿ Section: Preparation of Credit Information no.8.2
-#    ⁃ Count of standard compliance in the code block: 
-#      ◦ perform_creditscoring: 1
-#      Total: 1
-#    ⁃ Count of standard violation in the code block: 0
-#   ⦿ Section: Definition of Credit Scoring
-#    ⁃ Count of standard compliance in the code block: 
-#      ◦ perform_creditscoring: 1
-#      Total: 1
-#    ⁃ Count of standard violation in the code block: 0
 #   ⦿ Section: Implementation of Credit Scoring System I
-#    ⁃ Count of standard compliance in the code block: 
+#    ⁃ Count of standard compliance in the code block:
 #      ◦ return: 1
 #      Total: 1
 #    ⁃ Count of standard violation in the code block: 0
-# 🔹 Absent section in the code block: 
+# 🔹 Absent section in the code block:
 #  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Credit Scoring Development
 #  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Preparation of Credit Information no.8.6
 #  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Implementation of Credit Scoring System II
@@ -91,4 +63,4 @@ def perform_creditscoring(sender_account, age, loan, delinquency_record):
 #  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Construction of Credit Scoring
 #  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Preparation of Credit Information no.8.1
 #  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Testing of the Reliability of Separation and/or Accuracy of Prediction Power of Credit Scoring
-# 🔹 Reference Number: dd78aa78f8a48dba4cbce40f7af8777ff2477a1cfd0fe5229fbd8c37faf279fe
+# 🔹 Reference Number: f338a6127ca85428bd91f76ad351898ddc0086508078b0052c068dc88a26f4d4

@@ -11,12 +11,14 @@ from pandas import DataFrame
 
 
 data = pd.read_csv('cs-training.csv', sep=';').drop('Unnamed: 0', axis=1)
-
+collections = 2
+# min = pd.Series.min()
 Cols = []
 for i in range(len(data.columns)):
     Cols.append(data.columns[i].replace('-', ''))
 data.columns = Cols
 plt.figure(1)
+df_data = {"age": 15, "NumberOfTime3059DaysPastDueNotWorse": 20}
 df_data.age.plot.box()
 Counter(df_data.age)
 ind = np.where(df_data.age < 21)
@@ -310,3 +312,169 @@ ax = plt.subplot(211)
 # ax.set_ylim(0,20)
 plt.plot(df_data.MonthlyIncome[ind.index], df_data.age[ind.index],
          'ko', df_data.MonthlyIncome[ind2.index], df_data.age)
+
+# 🔵 Standard Compliance Report
+# 🔹 Product Type: Credit Scoring
+# 🔹 Code Block Name: credit_score_3.py
+# 🔹 Analysis Result:
+#   Standard => Credit Information Business Act B.E.2545
+#   ⦿ Section: 3
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ age: 14
+#      ◦ NumberOfTime3059DaysPastDueNotWorse: 10
+#      ◦ DebtRatio: 15
+#      ◦ MonthlyIncome: 16
+#      ◦ NumberRealEstateLoansOrLines: 10
+#      ◦ NumberOfTime6089DaysPastDueNotWorse: 10
+#      ◦ NumberOfDependents: 10
+#      ◦ RevolvingUtilizationOfUnsecuredLines: 3
+#      ◦ income: 3
+#      ◦ debtRatio: 3
+#      ◦ NumberOfOpenCreditLinesAndLoans: 7
+#      ◦ Lines: 1
+#      ◦ Age: 1
+#      ◦ Income: 1
+#      ◦ ageV: 3
+#      ◦ loan: 2
+#      Total: 109
+#    ⁃ Count of standard violation in the code block: 0
+# 🔹 Absent section in the code block:
+#  ◦ Credit Information Business Act B.E.2545 at section 10
+# 🔹 Reference Number: dbb813beb820f92dc84d74f5bee1b96ec320367e641e38cd8fa8c2ddd16bf9a6
+# 🔵 Standard Compliance Report
+# 🔹 Product Type: Credit Scoring
+# 🔹 Code Block Name: credit_score_3.py
+# 🔹 Analysis Result:
+#   1. Standard => Credit Information Business Act B.E.2545
+#   ⦿ Section: 3
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ age: 14
+#      ◦ NumberOfTime3059DaysPastDueNotWorse: 10
+#      ◦ DebtRatio: 15
+#      ◦ MonthlyIncome: 16
+#      ◦ NumberRealEstateLoansOrLines: 10
+#      ◦ NumberOfTime6089DaysPastDueNotWorse: 10
+#      ◦ NumberOfDependents: 10
+#      ◦ RevolvingUtilizationOfUnsecuredLines: 3
+#      ◦ income: 3
+#      ◦ debtRatio: 3
+#      ◦ NumberOfOpenCreditLinesAndLoans: 7
+#      ◦ Lines: 1
+#      ◦ Age: 1
+#      ◦ Income: 1
+#      ◦ ageV: 3
+#      ◦ loan: 2
+#      Total: 109
+#    ⁃ Count of standard violation in the code block: 0
+# 🔹 Absent section in the code block:
+#  ◦ Credit Information Business Act B.E.2545 at section 10
+# 🔹 Reference Number: be52a8d6e1daf9104a1715475cefb4bcdad5b5bf483e9a0019470e58477fd31c
+# 🔵 Standard Compliance Report
+# 🔹 Product Type: Credit Scoring
+# 🔹 Code Block Name: credit_score_3.py
+# 🔹 Analysis Result:
+#   1. Standard => ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices
+#   ⦿ Section: Preparation of Credit Information no.8.2
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ collections: 1
+#      Total: 1
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Credit Scoring Development
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ data: 4
+#      ◦ df_data: 79
+#      Total: 83
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Preparation of Credit Information no.8.6
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ training: 1
+#      Total: 1
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Preparation of Credit Information no.8.1
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ training: 1
+#      Total: 1
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Testing of the Reliability of Separation and/or Accuracy of Prediction Power of Credit Scoring
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ testARR: 6
+#      Total: 6
+#    ⁃ Count of standard violation in the code block: 0
+# 🔹 Absent section in the code block:
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Implementation of Credit Scoring System I
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Implementation of Credit Scoring System II
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Verification of the Applicant’s Information
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Preparation of Credit Information no.8.3
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Overrides in Credit Approval
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Construction of Credit Scoring
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Definition of Credit Scoring
+# 🔹 Reference Number: dcdee9392d64ed729cc9eec3adf391899d18359c9b8529142cb09a1a506479ea
+# 🔵 Standard Compliance Report
+# 🔹 Product Type: Credit Scoring
+# 🔹 Code Block Name: credit_score_3.py
+# 🔹 Analysis Result:
+#   1. Standard => ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices
+#   ⦿ Section: Preparation of Credit Information no.8.2
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ collections: 1
+#      Total: 1
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Credit Scoring Development
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ data: 4
+#      ◦ df_data: 79
+#      Total: 83
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Preparation of Credit Information no.8.6
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ training: 1
+#      Total: 1
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Preparation of Credit Information no.8.1
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ training: 1
+#      Total: 1
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Testing of the Reliability of Separation and/or Accuracy of Prediction Power of Credit Scoring
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ testARR: 6
+#      Total: 6
+#    ⁃ Count of standard violation in the code block: 0
+# 🔹 Absent section in the code block:
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Implementation of Credit Scoring System I
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Implementation of Credit Scoring System II
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Verification of the Applicant’s Information
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Preparation of Credit Information no.8.3
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Overrides in Credit Approval
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Construction of Credit Scoring
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Definition of Credit Scoring
+# 🔹 Reference Number: cd130dc26b4cd2d2225ef14cccc66c30a6339b4ca95c272129d9d184e48185b5
+
+# 🔵 Standard Compliance Report
+# 🔹 Product Type: Credit Scoring
+# 🔹 Code Block Name: credit_score_3.py
+# 🔹 Analysis Result: 
+#   1. Standard => Credit Information Business Act B.E.2545
+#   ⦿ Section: 3
+#    ⁃ Count of standard compliance in the code block: 
+#      ◦ age: 15
+#      ◦ NumberOfTime3059DaysPastDueNotWorse: 11
+#      ◦ DebtRatio: 15
+#      ◦ MonthlyIncome: 16
+#      ◦ NumberRealEstateLoansOrLines: 10
+#      ◦ NumberOfTime6089DaysPastDueNotWorse: 10
+#      ◦ NumberOfDependents: 10
+#      ◦ RevolvingUtilizationOfUnsecuredLines: 3
+#      ◦ income: 3
+#      ◦ debtRatio: 3
+#      ◦ NumberOfOpenCreditLinesAndLoans: 7
+#      ◦ Lines: 1
+#      ◦ Age: 1
+#      ◦ Income: 1
+#      ◦ ageV: 3
+#      ◦ loan: 2
+#      Total: 111
+#    ⁃ Count of standard violation in the code block: 0
+# 🔹 Absent section in the code block: 
+#  ◦ Credit Information Business Act B.E.2545 at section 10
+# 🔹 Reference Number: 6a8b835ae4287573549b7f96bcc2808de12e740254617b925132607e3abe4b79

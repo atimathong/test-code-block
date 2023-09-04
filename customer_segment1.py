@@ -14,6 +14,8 @@ import warnings
 
 
 def customer_segmentation(data):
+    abc = np
+    aa = np.big()
     for col in data.select_dtypes(include=[object]):
         print(col, ":", data[col].unique())
 
@@ -230,3 +232,58 @@ def customer_segmentation(data):
 
     plt.show()
 
+
+# 🔵 Standard Compliance Report
+# 🔹 Product Type: Customer Segmentation
+# 🔹 Code Block Name: customer_segment1.py
+# 🔹 Analysis Result:
+#   1. Standard => Bank of Thailand Notification No. SVG. 1/2561
+# Re: Regulations on Market Conduct
+#   ⦿ Section: Management systems: Product development and client segmentation
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ customer_segmentation: 1
+#      Total: 1
+#    ⁃ Count of standard violation in the code block: 0
+# 🔹 Absent section in the code block: 0
+# 🔹 Reference Number: 0c63a6c38bf978e6077eaebe661fbbc5ae09fe9a62487776c1ea51ae106b2c64
+
+# 🔵 Standard Compliance Report
+# 🔹 Product Type: Customer Segmentation
+# 🔹 Code Block Name: customer_segment1.py
+# 🔹 Analysis Result: 
+#   Standard => Bank of Thailand Notification No. SVG. 1/2561 Re: Regulations on Market Conduct
+#   ⦿ Section: Attachment4: Minimum standards on sales process
+#    ⁃ Count of standard compliance in the code block: 
+#      ◦ customer_segmentation: 1
+#      ◦ loan_status: 1
+#      ◦ loan_amnt: 1
+#      ◦ segmentation: 1
+#      ◦ bank_transactions: 1
+#      ◦ TransactionDate: 10
+#      ◦ CustAccountBalance: 2
+#      ◦ Transaction: 4
+#      ◦ gender_counts: 4
+#      ◦ CustGender: 6
+#      ◦ transactions_count: 4
+#      ◦ TransactionID: 3
+#      ◦ TransactionAmount: 4
+#      ◦ TransactionCount: 5
+#      ◦ LastTransactionDate: 2
+#      ◦ TotalTransactionValue: 3
+#      ◦ DaySinceLastTransaction: 3
+#      ◦ Age: 3
+#      Total: 58
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Management systems: Product development and client segmentation
+#    ⁃ Count of standard compliance in the code block: 
+#      ◦ customer_segmentation: 1
+#      Total: 1
+#    ⁃ Count of standard violation in the code block: 0
+# 🔹 Absent section in the code block: 
+#  ◦ Bank of Thailand Notification No. SVG. 1/2561 Re: Regulations on Market Conduct at section Attachment6: Minimum standards on data privacy
+#  ◦ Bank of Thailand Notification No. SVG. 1/2561 Re: Regulations on Market Conduct at section Attachment2: Minimum standards on product development and client segmentation
+#  ◦ Bank of Thailand Notification No. SVG. 1/2561 Re: Regulations on Market Conduct at section Management systems: Data Privacy
+#  ◦ Bank of Thailand Notification No. SVG. 1/2561 Re: Regulations on Market Conduct at section Attachment6: Minimum standards on data privacy
+#  ◦ Bank of Thailand Notification No. SVG. 1/2561 Re: Regulations on Market Conduct at section Attachment6: Minimum standards on data privacy
+# 🔹 Create Date: Mon, 04 Sep 2023 13:22:20 GMT
+# 🔹 Reference Number: 87e3fad47c599253079459f42752ebebc8447a8eec9d36cc0a1d78afeeffbe7d

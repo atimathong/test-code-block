@@ -148,3 +148,90 @@ df = (
     .round(2)
     .style.background_gradient(axis=0)
 )
+
+# 🔵 Standard Compliance Report
+# 🔹 Product Type: Credit Scoring
+# 🔹 Code Block Name: credit_score_2.py
+# 🔹 Analysis Result:
+#   1. Standard => Credit Information Business Act B.E.2545
+#   ⦿ Section: 3
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ income2Range: 2
+#      ◦ PROXY_INCOME: 3
+#      ◦ Income: 1
+#      ◦ incomes: 1
+#      ◦ AGE_NORM: 1
+#      ◦ mean_age: 2
+#      ◦ AGE: 2
+#      ◦ max_age: 1
+#      Total: 13
+#    ⁃ Count of standard violation in the code block: 0
+# 🔹 Absent section in the code block:
+#  ◦ Credit Information Business Act B.E.2545 at section 10
+# 🔹 Reference Number: c4e86aab4b49a92289a89df13dfceea57a5d22b8ce8e4176c4a385271022a67b
+# 🔵 Standard Compliance Report
+# 🔹 Product Type: Credit Scoring
+# 🔹 Code Block Name: credit_score_2.py
+# 🔹 Analysis Result:
+#   1. Standard => ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices
+#   ⦿ Section: Credit Scoring Development
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ data: 2
+#      ◦ df: 34
+#      ◦ df2: 3
+#      Total: 39
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Preparation of Credit Information no.8.6
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ sample_id: 1
+#      Total: 1
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Preparation of Credit Information no.8.1
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ sample_id: 1
+#      Total: 1
+#    ⁃ Count of standard violation in the code block: 0
+# 🔹 Absent section in the code block:
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Implementation of Credit Scoring System I
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Preparation of Credit Information no.8.2
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Implementation of Credit Scoring System II
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Verification of the Applicant’s Information
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Preparation of Credit Information no.8.3
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Overrides in Credit Approval
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Construction of Credit Scoring
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Definition of Credit Scoring
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Testing of the Reliability of Separation and/or Accuracy of Prediction Power of Credit Scoring
+# 🔹 Reference Number: 292be6495cdd00a5fcc3083a5ed88a0fbc14ad6f698665df47bee11ec5b5fa32
+# 🔵 Standard Compliance Report
+# 🔹 Product Type: Credit Scoring
+# 🔹 Code Block Name: credit_score_2.py
+# 🔹 Analysis Result:
+#   1. Standard => ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices
+#   ⦿ Section: Credit Scoring Development
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ data: 2
+#      ◦ df: 34
+#      ◦ df2: 3
+#      Total: 39
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Preparation of Credit Information no.8.6
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ sample_id: 1
+#      Total: 1
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Preparation of Credit Information no.8.1
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ sample_id: 1
+#      Total: 1
+#    ⁃ Count of standard violation in the code block: 0
+# 🔹 Absent section in the code block:
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Implementation of Credit Scoring System I
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Preparation of Credit Information no.8.2
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Implementation of Credit Scoring System II
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Verification of the Applicant’s Information
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Preparation of Credit Information no.8.3
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Overrides in Credit Approval
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Construction of Credit Scoring
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Definition of Credit Scoring
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Testing of the Reliability of Separation and/or Accuracy of Prediction Power of Credit Scoring
+# 🔹 Reference Number: 7632e37f40a9fec074c2d19f34e10b289d909094bf4225d1c23cab37d2657a13

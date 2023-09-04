@@ -87,3 +87,76 @@ def credit_log_modelling(cr_data):
     print("percentage")
     print("return", 100)
     return pred_df
+
+# 🔵 Standard Compliance Report
+# 🔹 Product Type: Credit Scoring
+# 🔹 Code Block Name: credit_log_1.py
+# 🔹 Analysis Result:
+#   1. Standard => Credit Information Business Act B.E.2545
+#   ⦿ Section: 3
+#    ⁃ Count of standard compliance in the code block:
+#      ◦ credit_log_modelling: 1
+#      ◦ loan_int_rate: 4
+#      ◦ person_age: 3
+#      ◦ loan_status: 4
+#      ◦ age: 2
+#      ◦ Loan: 1
+#      ◦ loan_grade: 1
+#      ◦ loan_intent: 1
+#      ◦ percentage: 1
+#      Total: 18
+#    ⁃ Count of standard violation in the code block: 0
+# 🔹 Absent section in the code block:
+#  ◦ Credit Information Business Act B.E.2545 at section 10
+# 🔹 Reference Number: 30fea949aa4721e2518aa886cf31b3669c651935b904799cc59f697d1936d305
+
+
+# 🔵 Standard Compliance Report
+# 🔹 Product Type: Credit Scoring
+# 🔹 Code Block Name: credit_log_1.py
+# 🔹 Analysis Result: 
+#   1. Standard => ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices
+#   ⦿ Section: Credit Scoring Development
+#    ⁃ Count of standard compliance in the code block: 
+#      ◦ data: 1
+#      ◦ cr_data: 15
+#      ◦ pred_df: 2
+#      Total: 18
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Testing of the Reliability of Separation and/or Accuracy of Prediction Power of Credit Scoring
+#    ⁃ Count of standard compliance in the code block: 
+#      ◦ again: 1
+#      ◦ x_test: 2
+#      ◦ y_test: 2
+#      ◦ train_test_split: 1
+#      ◦ test_size: 1
+#      Total: 7
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Preparation of Credit Information no.8.6
+#    ⁃ Count of standard compliance in the code block: 
+#      ◦ x_train: 2
+#      ◦ y_train: 2
+#      ◦ train_test_split: 1
+#      Total: 5
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Preparation of Credit Information no.8.1
+#    ⁃ Count of standard compliance in the code block: 
+#      ◦ x_train: 2
+#      ◦ y_train: 2
+#      ◦ train_test_split: 1
+#      Total: 5
+#    ⁃ Count of standard violation in the code block: 0
+#   ⦿ Section: Implementation of Credit Scoring System I
+#    ⁃ Count of standard compliance in the code block: 
+#      ◦ return: 1
+#      Total: 1
+#    ⁃ Count of standard violation in the code block: 0
+# 🔹 Absent section in the code block: 
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Preparation of Credit Information no.8.2
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Implementation of Credit Scoring System II
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Verification of the Applicant’s Information
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Preparation of Credit Information no.8.3
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Overrides in Credit Approval
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Construction of Credit Scoring
+#  ◦ ThorPorTor. SorGorSor. (03) Wor. 277/2548 Re: Guidelines for Risk Management Practices at section Definition of Credit Scoring
+# 🔹 Reference Number: 42cd33b3b36e9195471cc6e90873ea0b1018a05a0ad6eea87004f95a465a1a23
